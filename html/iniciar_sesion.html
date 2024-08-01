@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesion</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="../index.html">Le Shoes</a></h1>
+        <div class="boton_menu"><a></a>
+        </div>
+        <nav>
+            <ul class="lista_ul">
+                <li> <a href="../index.html">Inicio</a></li>
+                <li> <a href="producto.html">Colección
+                    </a></li>
+                <li> <a href="iniciar_sesion.html">Iniciar sesion
+                    </a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contenedor_form">
+        <div class="form_sesion">
+            <form action="" id="form">
+                <p>Registrate!</p>
+                <p>Informacion personal</p>
+                Nombre: <input type="text" class="text_form" name="nombre" value="" required />
+                Apellido: <input type="text" class="text_form" name="apellido" value="" />
+                <p>Informacion para tu cuenta</p>
+                Correo Electrónico: <input type="email" class="text_form" name="email" value="" required />
+                Contraseña: <input type="password" class="text_form" name="password" />
+                Confirma contraseña: <input type="password" class="text_form" name="Contraseña" />
+                <p class="sesion">Protección de Captcha</p>
+                <p class="sesion">Ingrese la suma de los números:</p>
+                <p id="resultado" class="sesion"></p>
+                <p id="resultadob" class="sesion"></p>
+                <input class="text_form" type="text" id="captcha_usuario">
+                <button id="captcha" class="submit_form">Enviar</button>
+                <p class="sesion" id="mensaje"></p>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li>Medios de Pago</li>
+            <li>Envíos</li>
+            <li>Sucursales</li>
+        </ul>
+    </footer>
+    <script src="../Js/main.js"></script>
+    <script src="../Js/nav.js"></script>
+</body>
+
+</html>

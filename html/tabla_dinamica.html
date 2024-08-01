@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="../index.html">Le Shoes</a></h1>
+        <div class="boton_menu"><a></a>
+        </div>
+        <nav>
+            <ul class="lista_ul">
+                <li> <a href="../index.html">Inicio</a></li>
+                <li> <a href="producto.html">Colección
+                    </a></li>
+                <li> <a href="iniciar_sesion.html">Iniciar sesion
+                    </a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container_td">
+        <aside class="sidebarA_td">
+            <form action="">
+                <div class="form_sesion">
+                    <p>Ingrese un calzado:</p>
+                    <select class="text_form " id="producto">
+                        <option id="producto1" value="Zapatilla Casual">Zapatilla Casual</option>
+                        <option id="producto2" value="Sandalia Summer">Sandalia Summer</option>
+                        <option id="producto3" value="Zapatilla Runner">Zapatilla Runner</option>
+                    </select>
+                    <p>Ingrese la cantidad:</p>
+                    <input type="text" id="cantidad" class="text_form" placeholder="cantidad">
+                    <p>Ingrese el precio:</p>
+                    <input type="text" id="precio_unit" class="text_form" placeholder="precio_unitario">
+                </div>
+                <div class="form_sesion">
+                    <p>Confirmar: </p>
+                    <button type="button" id="boton_agregar" class="submit_form">Agregar</button>
+                    <p>Calcular total:</p>
+                    <button type="button" id="boton_sumar" class="submit_form">Sumar</button>
+                    <p>Borrar:</p>
+                    <button id="boton_reset" class="submit_form">Reset</button>
+                </div>
+            </form>
+        </aside>
+
+        <aside class="sidebarB_td">
+            <div class="sidebarB_td_img">
+            </div>
+            <p>Aprovecha 3 pares de medias a $500c/u: </p>
+            <button id="boton_oferta" class="submit_form">Comprar Oferta</button>
+        </aside>
+        <aside class="sidebarC_td">
+            <p>Con tu compra de mas $30.000 tenes 10% de descuento!!!</p>
+        </aside>
+
+        <section class="main_td">
+            <div class="contenedor_tabla">
+                <div class="div_tabla">
+                    <table>
+                        <thead id="th_din">
+                            <th>Producto</th>
+                            <th>Cantidad</th>
+                            <th>Precio</th>
+                            <th>Total</th>
+                        </thead>
+                        <tbody id="t_din">
+                            <tr>
+
+                            </tr>
+                        </tbody>
+                        <tfoot class="total_resaltado">
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <footer>
+        <ul>
+            <li>Medios de Pago</li>
+            <li>Envíos</li>
+            <li>Sucursales</li>
+        </ul>
+    </footer>
+    <script src="../Js/nav.js"></script>
+    <script src="../Js/tabla_dinamica.js"></script>
+</body>
+
+</html>
